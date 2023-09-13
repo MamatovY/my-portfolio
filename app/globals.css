@@ -13,3 +13,11 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+.vertical-timeline-element-icon {
+  left: 4px !important;
+}
+
+.vertical-timeline:before {
+  left: 22px !important;
+}
