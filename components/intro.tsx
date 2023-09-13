@@ -61,10 +61,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Yimanbek.</span> I'm a{" "}
-        <span className="font-bold">frontend developer</span> with{" "}
-        <span className="font-bold">2 years</span> of experience. I enjoy
-        building <span className="italic">sites</span>. My focus is{" "}
+        <span className="font-bold">Привет, Я Маматов Ыйманбек.</span> Я{" "}
+        <span className="font-bold">frontend-разработчик</span> с{" "}
+        <span className="font-bold">2-летним</span> коммерческим опытом. Мне
+        нравится создавать <span className="italic">сайты</span>. Мое направление{" "}
         <span className="underline">React (Next.js)</span>.
       </motion.h1>
 
@@ -84,7 +84,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+          Свяжитесь со мной здесь{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
@@ -93,13 +93,13 @@ export default function Intro() {
           href="/CV.pdf"
           download
         >
-          Download CV{" "}
+          Скачать мое резюме{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/%D1%8B%D0%B9%D0%BC%D0%B0%D0%BD%D0%B1%D0%B5%D0%BA-%D0%BC%D0%B0%D0%BC%D0%B0%D1%82%D0%BE%D0%B2-24aa68274/"
           target="_blank"
         >
           <BsLinkedin />
@@ -107,7 +107,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/MamatovY"
           target="_blank"
         >
           <FaGithubSquare />

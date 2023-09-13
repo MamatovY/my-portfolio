@@ -17,33 +17,18 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>Обо мне</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        Всем привет! Итак, вы уже знаете, что меня зовут <span className="font-medium">Ыйманбек</span>.
+        Немного о себе: 20 лет, с детства люблю творчество, живу в г. Ош, Кыргызстан, диплом среднего образования (программист/техник), веб-разработку изучал самостоятельно по книгам, из ютуба и документаций.
+        Почему именно программирование?
+        Все элементарно - мне это <span className="underline">нравится</span>, профессия будущего, благодаря которой я смогу обеспечить себя и осуществить свои планы, на данный момент специализируюсь на <span className="font-medium">front-end разработке</span>.
+        Мой основной стек — это <span className="font-medium">React, Next.js</span>.
+        <span className="italic">Я всегда стремлюсь к изучению новых технологий</span>.
+        Почему вы должны выбрать меня?
+        К каждому заказу я подхожу с большой ответственностью и любовью, так как хочу заявить о себе, исключаю плагиат и небрежность, полностью изучаю проект, заказчика и его целевую аудиторию, работаю на качество, стараюсь сделать заказ максимально быстро и уникально, учитывая все правки и пожелания. Доверившись мне, вы получите максимальную отдачу от вашего проекта, сэкономите свои нервы и время. Если я Вас заинтересовал, Вы хотите узнать что-то больше или воспользоваться моими услугами, то ниже я укажу все свои контакты.
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
     </motion.section>
   );
 }

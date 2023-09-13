@@ -8,27 +8,27 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
-    name: "Home",
+    name: "Главный",
     hash: "#home",
   },
   {
-    name: "About",
+    name: "Обо мне",
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "Проекты",
     hash: "#projects",
   },
   {
-    name: "Skills",
+    name: "Скиллы",
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Опыт работы",
     hash: "#experience",
   },
   {
-    name: "Contact",
+    name: "Контакт",
     hash: "#contact",
   },
 ] as const;
@@ -91,17 +91,16 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "Redux-Toolkit",
+  "Redux-thunk",
   "Framer Motion",
+  "swiper",
+  "formik",
+  "yup",
+  "react-transition-group",
+  "axios",
+  "SASS/SCSS",
 ] as const;
