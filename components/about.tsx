@@ -8,6 +8,16 @@ import { useSectionInView } from "@/lib/hooks";
 export default function About() {
   const { ref } = useSectionInView("About");
 
+  const birthDate: any = new Date('2002-06-28');
+  // Текущая дата
+  const currentDate: any = new Date();
+
+  // Вычисляем разницу в миллисекундах между текущей датой и датой рождения
+  const differenceInMilliseconds = currentDate - birthDate;
+
+  // Вычисляем возраст в годах, округляя вниз
+  const age = Math.floor(differenceInMilliseconds / (365.25 * 24 * 60 * 60 * 1000));
+
   return (
     <motion.section
       ref={ref}
@@ -20,7 +30,7 @@ export default function About() {
       <SectionHeading>Обо мне</SectionHeading>
       <p className="mb-3">
         Всем привет! Итак, вы уже знаете, что меня зовут <span className="font-medium">Ыйманбек</span>.
-        Немного о себе: 20 лет, с детства люблю творчество, живу в г. Ош, Кыргызстан, диплом среднего образования (программист/техник), веб-разработку изучал самостоятельно по книгам, из ютуба и документаций.
+        Немного о себе: {age} лет, с детства люблю творчество, живу в г. Ош, Кыргызстан, диплом среднего образования (программист/техник), веб-разработку изучал самостоятельно по книгам, из ютуба и документаций.
         Почему именно программирование?
         Все элементарно - мне это <span className="underline">нравится</span>, профессия будущего, благодаря которой я смогу обеспечить себя и осуществить свои планы, на данный момент специализируюсь на <span className="font-medium">front-end разработке</span>.
         Мой основной стек — это <span className="font-medium">React, Next.js</span>.
