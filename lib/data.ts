@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Frontend Верстальшик",
+    location: "House.kg",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Разработка пользовательских интерфейсов для веб-приложений, которые используются внутри компании или для клиентов. Разработка и поддержка веб-сайта компании, включая создание и редактирование статических страниц, форм и других элементов веб-интерфейса. Интеграция фронтенда с бэкендом, включая написание API-запросов и обработку ответов. Тестирование и отладка фронтенда в различных браузерах и устройствах. Оптимизация производительности фронтенда для быстрой загрузки и отзывчивости интерфейса",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021 - 2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Frontend Junior, Junior+",
+    location: "ITEK",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Мои обязанности на рабочем месте включают разработку и поддержку пользовательского интерфейса, реализацию функциональности с использованием React и Redux-thunk, Redux-toolkit, участие в код-ревью, оптимизацию производительности и поддержку совместимости с различными браузерами. Кроме того, я активно взаимодействую с другими членами команды, участвую в совещаниях и обсуждениях, а также стремлюсь к постоянному обучению и применению передовых практик в области веб-разработки.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Frontend middle developer",
+    location: "ОсСАФ-Технолоджи",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Занимаемся гос. проектами",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
