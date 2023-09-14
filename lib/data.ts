@@ -2,9 +2,10 @@ import React from "react";
 import { SiNextdotjs } from 'react-icons/si'
 import { FaReact } from "react-icons/fa";
 import { LuLayoutDashboard } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import bishtao from "@/public/bishtao.png";
+import chuy from "@/public/chuy-arhitektura.png";
+import house from "@/public/house.kg.png";
+import mchs from "@/public/mchs.png"
 
 
 export const links = [
@@ -63,25 +64,36 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "МЧС КР",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    tags: ["HTML", "SCSS", "JS"],
+    imageUrl: mchs,
+    link: 'https://www.mchs.gov.kg/'
   },
   {
-    title: "rmtDev",
+    title: "Чуйское региональное управление по градостроительству и архитектуре",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    tags: ["React", "Redux", "SCSS"],
+    imageUrl: chuy,
+    link: 'https://www.chuy-arhitektura.gov.kg/'
   },
   {
-    title: "Word Analytics",
+    title: "Bishtao-интернет магазин",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Принимал участие в разработке фронтенд-части. Мои обязанности включали верстку реализацию анимаций и эффектов и разработку фильтрации.",
+    tags: ["HTML", "SCSS", "JS", "Bootstrap", "JQuery"],
+    imageUrl: bishtao,
+    link: 'http://bishtao.kg/'
+  },
+  {
+    title: "House.kg-объявление недвижимости",
+    description:
+      "Создал и реализовал верстку сайта продажи домов, включая адаптивный и отзывчивый дизайн, семантическую вёрстку, интеграцию с API и оптимизацию производительности.",
+    tags: ["HTML", "CSS", "JS"],
+    imageUrl: house,
+    link: 'https://www.house.kg/'
   },
 ] as const;
 
