@@ -72,7 +72,7 @@ export const projectsData = [
     link: 'https://www.mchs.gov.kg/'
   },
   {
-    title: "Чуйское региональное управление по градостроительству и архитектуре",
+    title: "Чуйское управление по архитектуре",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "Redux", "SCSS"],
