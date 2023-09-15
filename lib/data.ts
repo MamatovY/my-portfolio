@@ -6,6 +6,7 @@ import bishtao from "@/public/bishtao.png";
 import chuy from "@/public/chuy-arhitektura.png";
 import house from "@/public/house.kg.png";
 import mchs from "@/public/mchs.png"
+import marvel from "@/public/marvel.jpeg"
 
 
 export const links = [
@@ -66,7 +67,7 @@ export const projectsData = [
   {
     title: "МЧС КР",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "Государственный, Мультиязычный и адаптивный сайт, присутствует версия для слабовидящих.",
     tags: ["HTML", "SCSS", "JS"],
     imageUrl: mchs,
     link: 'https://www.mchs.gov.kg/'
@@ -74,8 +75,8 @@ export const projectsData = [
   {
     title: "Чуйское управление по архитектуре",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "Redux", "SCSS"],
+      "Государственный, Мультиязычный и адаптивный сайт, присутствует версия для слабовидящих.",
+    tags: ["React", "Redux/toolkit", "SCSS"],
     imageUrl: chuy,
     link: 'https://www.chuy-arhitektura.gov.kg/'
   },
@@ -86,6 +87,14 @@ export const projectsData = [
     tags: ["HTML", "SCSS", "JS", "Bootstrap", "JQuery"],
     imageUrl: bishtao,
     link: 'http://bishtao.kg/'
+  },
+  {
+    title: "Marvel",
+    description:
+      "Веб-приложение с использованием React, React-router-dom. Получает данные из сервера и выводит.",
+    tags: ["React", "SCSS", "formik"],
+    imageUrl: marvel,
+    link: 'https://marvel01.netlify.app/'
   },
   {
     title: "House.kg-объявление недвижимости",
