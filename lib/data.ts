@@ -68,7 +68,7 @@ export const projectsData = [
     title: "МЧС КР",
     description:
       "Государственный, Мультиязычный и адаптивный сайт, присутствует версия для слабовидящих.",
-    tags: ["HTML", "SCSS", "JS"],
+    tags: ["HTML", "SCSS", "JS", "bootstrap", "JQuery"],
     imageUrl: mchs,
     link: 'https://www.mchs.gov.kg/'
   },
